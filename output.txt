@@ -1,0 +1,46 @@
+Equation: -6x + 0 = 0
+Root = 0
+
+Equation: 3x^2 + 1x - 10 = 0
+Root1 = 1.66667
+Root2 = -2
+
+Equation: -10x - 1 = 0
+Root = -0.1
+
+Equation: 2x^2 - 6x + 8 = 0
+No solution for this equation
+
+Equation: 6x - 9 = 0
+Root = 1.5
+
+Equation: 1x^2 + 5x - 7 = 0
+Root1 = 1.14005
+Root2 = -6.14005
+
+Equation: -8x - 5 = 0
+Root = -0.625
+
+Equation: 5x^2 + 0x - 5 = 0
+Root1 = 1
+Root2 = -1
+
+Equation: 1x + 6 = 0
+Root = -6
+
+Equation: 5x^2 + 3x - 9 = 0
+Root1 = 1.07477
+Root2 = -1.67477
+
+============================
+
+Equations without solution:
+
+Equation: 2x^2 - 6x + 8 = 0
+
+============================
+
+Equations with infinite solutions:
+
+No such equations
+
