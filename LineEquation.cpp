@@ -50,3 +50,8 @@ bool LineEquation::hasInfSolution_v()
 	}
 	return false;
 }
+
+double LineEquation::getLeadingCoefficient()
+{
+    return this->k;
+}

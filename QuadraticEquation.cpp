@@ -71,3 +71,8 @@ bool QuadraticEquation::hasInfSolution_v()
 {
     return false;
 }
+
+double QuadraticEquation::getLeadingCoefficient()
+{
+    return this->a;
+}

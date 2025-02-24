@@ -11,4 +11,5 @@ public:
 	virtual void print(std::ostream&) = 0;
 	virtual bool hasSolution_v() = 0;
 	virtual bool hasInfSolution_v() = 0;
+	virtual double getLeadingCoefficient() = 0;
 };

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <algorithm>
 #include <ctime>
 #include <type_traits>
 #include "Equations.h"
@@ -8,8 +9,7 @@
 #include "QuadraticEquation.h"
 
 void CheckFile(std::ofstream&);
-
-
+bool comparatorForSort(Equations*, Equations*);
 
 int main() {
     srand(time(NULL));
@@ -64,6 +64,13 @@ int main() {
 		if(!hasSuch) {
 			fout << "No such equations\n\n";
 		}
+
+		fout << "============================\n\nSorted equations:\n\n";
+		sort(vect.begin(), vect.end(), comparatorForSort);
+		for (auto i = vect.begin(); i < vect.end(); ++i) {
+			(*i)->print(fout);
+			fout << "\n\n";
+		}
 	}
 	catch (const char* ex)
 	{
@@ -83,4 +90,8 @@ void CheckFile(std::ofstream& file) {
 	if (!file.is_open()) {
 		throw "Not opend\n";
 	}
+}
+
+bool comparatorForSort(Equations* first, Equations* second) {
+	return first->getLeadingCoefficient() < second->getLeadingCoefficient();
 }

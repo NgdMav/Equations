@@ -16,4 +16,5 @@ public:
     void print(std::ostream&) override;
     bool hasSolution_v() override;
     bool hasInfSolution_v() override;
+    double getLeadingCoefficient() override;
 };
