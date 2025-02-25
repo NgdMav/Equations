@@ -1,43 +1,42 @@
-Equation: 4x - 8 = 0
-Root = 2
+Equation: 2x + 3 = 0
+Root = -1.5
 
-Equation: 4x^2 + 0x - 6 = 0
-Root1 = 1.22474
-Root2 = -1.22474
+Equation: 1x^2 - 3x - 8 = 0
+Root1 = 4.70156
+Root2 = -1.70156
 
-Equation: -9x - 9 = 0
-Root = -1
+Equation: -9x + 10 = 0
+Root = 1.11111
 
-Equation: 2x^2 + 10x - 6 = 0
-Root1 = 0.541381
-Root2 = -5.54138
+Equation: 3x^2 - 3x - 8 = 0
+Root1 = 2.20783
+Root2 = -1.20783
+
+Equation: 5x - 5 = 0
+Root = 1
+
+Equation: 4x^2 + 4x - 3 = 0
+Root1 = 0.5
+Root2 = -1.5
+
+Equation: 10x + 5 = 0
+Root = -0.5
+
+Equation: 2x^2 + 5x + 5 = 0
+No solution for this equation
 
 Equation: -2x - 5 = 0
 Root = -2.5
 
-Equation: 4x^2 + 5x - 7 = 0
-Root1 = 0.838087
-Root2 = -2.08809
-
-Equation: -3x + 8 = 0
-Root = 2.66667
-
-Equation: 5x^2 - 10x + 0 = 0
-Root1 = 2
-Root2 = 0
-
-Equation: 9x - 6 = 0
-Root = 0.666667
-
-Equation: 1x^2 + 4x - 6 = 0
-Root1 = 1.16228
-Root2 = -5.16228
+Equation: 1x^2 + 7x + 8 = 0
+Root1 = -1.43845
+Root2 = -5.56155
 
 ============================
 
 Equations without solution:
 
-No such equations
+Equation: 2x^2 + 5x + 5 = 0
 
 ============================
 
@@ -49,35 +48,49 @@ No such equations
 
 Sorted equations:
 
-Equation: -9x - 9 = 0
-
-Equation: -3x + 8 = 0
+Equation: -9x + 10 = 0
 
 Equation: -2x - 5 = 0
 
-Equation: 1x^2 + 4x - 6 = 0
+Equation: 1x^2 - 3x - 8 = 0
 
-Equation: 2x^2 + 10x - 6 = 0
+Equation: 1x^2 + 7x + 8 = 0
 
-Equation: 4x - 8 = 0
+Equation: 2x + 3 = 0
 
-Equation: 4x^2 + 0x - 6 = 0
+Equation: 2x^2 + 5x + 5 = 0
 
-Equation: 4x^2 + 5x - 7 = 0
+Equation: 3x^2 - 3x - 8 = 0
 
-Equation: 5x^2 - 10x + 0 = 0
+Equation: 4x^2 + 4x - 3 = 0
 
-Equation: 9x - 6 = 0
+Equation: 5x - 5 = 0
+
+Equation: 10x + 5 = 0
 
 ============================
 
 Quadratic with negativ dis:
 
-No such equations
+Equation: 2x^2 + 5x + 5 = 0
 
 ============================
 
 Quadratic with negativ a:
 
 No such equations
+
+============================
+
+Full Quadratic (only one root)(sorted):
+
+No such equations
+
+============================
+
+Liner equations with d > k:
+
+Equation: -9x + 10 = 0
+
+Equation: 2x + 3 = 0
 

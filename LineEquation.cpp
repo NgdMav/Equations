@@ -56,6 +56,11 @@ double LineEquation::getLeadingCoefficient()
     return this->k;
 }
 
+double LineEquation::getFreeCoefficient()
+{
+    return this->b;
+}
+
 double LineEquation::getDiscriminant()
 {
 	return 0.0;

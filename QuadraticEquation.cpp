@@ -77,6 +77,11 @@ double QuadraticEquation::getLeadingCoefficient()
     return this->a;
 }
 
+double QuadraticEquation::getFreeCoefficient()
+{
+    return this->c;
+}
+
 double QuadraticEquation::getDiscriminant()
 {
     return b * b - 4 * a * c;

@@ -20,6 +20,7 @@ public:
     bool hasSolution_v() override;
     bool hasInfSolution_v() override;
     double getLeadingCoefficient() override;
+    double getFreeCoefficient() override;
     double getDiscriminant() override;
     int32_t type() override;
 

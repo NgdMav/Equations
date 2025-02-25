@@ -12,6 +12,7 @@ public:
 	virtual bool hasSolution_v() = 0;
 	virtual bool hasInfSolution_v() = 0;
 	virtual double getLeadingCoefficient() = 0;
+	virtual double getFreeCoefficient() = 0;
 	virtual double getDiscriminant() = 0;
 	virtual int32_t type() = 0;
 };
