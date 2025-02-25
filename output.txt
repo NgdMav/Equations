@@ -1,42 +1,43 @@
-Equation: -3x + 7 = 0
-Root = 2.33333
+Equation: 4x - 8 = 0
+Root = 2
 
-Equation: 2x^2 + 4x - 8 = 0
-Root1 = 1.23607
-Root2 = -3.23607
+Equation: 4x^2 + 0x - 6 = 0
+Root1 = 1.22474
+Root2 = -1.22474
 
-Equation: 2x + 7 = 0
-Root = -3.5
+Equation: -9x - 9 = 0
+Root = -1
 
-Equation: 1x^2 - 5x + 4 = 0
-Root1 = 4
-Root2 = 1
+Equation: 2x^2 + 10x - 6 = 0
+Root1 = 0.541381
+Root2 = -5.54138
 
-Equation: 5x + 0 = 0
-Root = -0
+Equation: -2x - 5 = 0
+Root = -2.5
 
-Equation: 5x^2 + 6x + 5 = 0
-No solution for this equation
+Equation: 4x^2 + 5x - 7 = 0
+Root1 = 0.838087
+Root2 = -2.08809
 
-Equation: 3x - 4 = 0
-Root = 1.33333
+Equation: -3x + 8 = 0
+Root = 2.66667
 
-Equation: 2x^2 + 5x - 10 = 0
-Root1 = 1.31174
-Root2 = -3.81174
+Equation: 5x^2 - 10x + 0 = 0
+Root1 = 2
+Root2 = 0
 
-Equation: 4x - 9 = 0
-Root = 2.25
+Equation: 9x - 6 = 0
+Root = 0.666667
 
-Equation: 4x^2 - 4x - 5 = 0
-Root1 = 1.72474
-Root2 = -0.724745
+Equation: 1x^2 + 4x - 6 = 0
+Root1 = 1.16228
+Root2 = -5.16228
 
 ============================
 
 Equations without solution:
 
-Equation: 5x^2 + 6x + 5 = 0
+No such equations
 
 ============================
 
@@ -48,23 +49,35 @@ No such equations
 
 Sorted equations:
 
-Equation: -3x + 7 = 0
+Equation: -9x - 9 = 0
 
-Equation: 1x^2 - 5x + 4 = 0
+Equation: -3x + 8 = 0
 
-Equation: 2x^2 + 4x - 8 = 0
+Equation: -2x - 5 = 0
 
-Equation: 2x + 7 = 0
+Equation: 1x^2 + 4x - 6 = 0
 
-Equation: 2x^2 + 5x - 10 = 0
+Equation: 2x^2 + 10x - 6 = 0
 
-Equation: 3x - 4 = 0
+Equation: 4x - 8 = 0
 
-Equation: 4x - 9 = 0
+Equation: 4x^2 + 0x - 6 = 0
 
-Equation: 4x^2 - 4x - 5 = 0
+Equation: 4x^2 + 5x - 7 = 0
 
-Equation: 5x + 0 = 0
+Equation: 5x^2 - 10x + 0 = 0
 
-Equation: 5x^2 + 6x + 5 = 0
+Equation: 9x - 6 = 0
+
+============================
+
+Quadratic with negativ dis:
+
+No such equations
+
+============================
+
+Quadratic with negativ a:
+
+No such equations
 

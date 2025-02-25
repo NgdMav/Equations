@@ -76,3 +76,13 @@ double QuadraticEquation::getLeadingCoefficient()
 {
     return this->a;
 }
+
+double QuadraticEquation::getDiscriminant()
+{
+    return b * b - 4 * a * c;
+}
+
+int32_t QuadraticEquation::type()
+{
+    return 3;
+}

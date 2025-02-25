@@ -55,3 +55,13 @@ double LineEquation::getLeadingCoefficient()
 {
     return this->k;
 }
+
+double LineEquation::getDiscriminant()
+{
+	return 0.0;
+}
+
+int32_t LineEquation::type()
+{
+    return 2;
+}

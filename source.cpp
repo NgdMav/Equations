@@ -11,6 +11,19 @@
 void CheckFile(std::ofstream&);
 bool comparatorForSort(Equations*, Equations*);
 
+template<typename T, typename U>
+struct is_same {
+    static const bool value = false;
+};
+
+template<typename T>
+struct is_same<T, T> {
+    static const bool value = true;
+};
+
+template<typename T, typename U>
+static const bool is_same_v = is_same<T, U>::value;
+
 int main() {
     srand(time(NULL));
 	std::ofstream fout("output.txt");
@@ -70,6 +83,32 @@ int main() {
 		for (auto i = vect.begin(); i < vect.end(); ++i) {
 			(*i)->print(fout);
 			fout << "\n\n";
+		}
+
+		fout << "============================\n\nQuadratic with negativ dis:\n\n";
+        hasSuch = false;
+		for (auto i = vect.begin(); i < vect.end(); ++i) {
+			if ((*i)->type() == 3 && (*i)->getDiscriminant() < 0) {
+                (*i)->print(fout);
+			    fout << "\n\n";
+                hasSuch = true;
+            }
+        }
+        if(!hasSuch) {
+			fout << "No such equations\n\n";
+		}
+
+        fout << "============================\n\nQuadratic with negativ a:\n\n";
+        hasSuch = false;
+		for (auto i = vect.begin(); i < vect.end(); ++i) {
+			if ((*i)->type() == 3 && (*i)->getLeadingCoefficient() < 0) {
+                (*i)->print(fout);
+			    fout << "\n\n";
+                hasSuch = true;
+            }
+        }
+        if(!hasSuch) {
+			fout << "No such equations\n\n";
 		}
 	}
 	catch (const char* ex)
