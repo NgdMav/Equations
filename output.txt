@@ -1,42 +1,43 @@
-Equation: 2x + 3 = 0
-Root = -1.5
+Equation: 9x + 1 = 0
+Root = -0.111111
 
-Equation: 1x^2 - 3x - 8 = 0
-Root1 = 4.70156
-Root2 = -1.70156
-
-Equation: -9x + 10 = 0
-Root = 1.11111
-
-Equation: 3x^2 - 3x - 8 = 0
-Root1 = 2.20783
-Root2 = -1.20783
-
-Equation: 5x - 5 = 0
-Root = 1
-
-Equation: 4x^2 + 4x - 3 = 0
-Root1 = 0.5
-Root2 = -1.5
-
-Equation: 10x + 5 = 0
-Root = -0.5
-
-Equation: 2x^2 + 5x + 5 = 0
+Equation: 5x^2 + 2x + 10 = 0
 No solution for this equation
 
-Equation: -2x - 5 = 0
-Root = -2.5
+Equation: -10x + 9 = 0
+Root = 0.9
 
-Equation: 1x^2 + 7x + 8 = 0
-Root1 = -1.43845
-Root2 = -5.56155
+Equation: 4x^2 + 3x - 8 = 0
+Root1 = 1.08809
+Root2 = -1.83809
+
+Equation: 1x - 7 = 0
+Root = 7
+
+Equation: 1x^2 - 9x - 7 = 0
+Root1 = 9.72015
+Root2 = -0.720153
+
+Equation: 5x + 2 = 0
+Root = -0.4
+
+Equation: 3x^2 + 7x - 6 = 0
+Root1 = 0.666667
+Root2 = -3
+
+Equation: -2x + 7 = 0
+Root = 3.5
+
+Equation: 4x^2 - 1x + 7 = 0
+No solution for this equation
 
 ============================
 
 Equations without solution:
 
-Equation: 2x^2 + 5x + 5 = 0
+Equation: 5x^2 + 2x + 10 = 0
+
+Equation: 4x^2 - 1x + 7 = 0
 
 ============================
 
@@ -48,31 +49,33 @@ No such equations
 
 Sorted equations:
 
-Equation: -9x + 10 = 0
+Equation: -10x + 9 = 0
 
-Equation: -2x - 5 = 0
+Equation: -2x + 7 = 0
 
-Equation: 1x^2 - 3x - 8 = 0
+Equation: 1x - 7 = 0
 
-Equation: 1x^2 + 7x + 8 = 0
+Equation: 1x^2 - 9x - 7 = 0
 
-Equation: 2x + 3 = 0
+Equation: 3x^2 + 7x - 6 = 0
 
-Equation: 2x^2 + 5x + 5 = 0
+Equation: 4x^2 + 3x - 8 = 0
 
-Equation: 3x^2 - 3x - 8 = 0
+Equation: 4x^2 - 1x + 7 = 0
 
-Equation: 4x^2 + 4x - 3 = 0
+Equation: 5x^2 + 2x + 10 = 0
 
-Equation: 5x - 5 = 0
+Equation: 5x + 2 = 0
 
-Equation: 10x + 5 = 0
+Equation: 9x + 1 = 0
 
 ============================
 
 Quadratic with negativ dis:
 
-Equation: 2x^2 + 5x + 5 = 0
+Equation: 4x^2 - 1x + 7 = 0
+
+Equation: 5x^2 + 2x + 10 = 0
 
 ============================
 
@@ -88,9 +91,9 @@ No such equations
 
 ============================
 
-Liner equations with d > k:
+Liner equations with b > k:
 
-Equation: -9x + 10 = 0
+Equation: -10x + 9 = 0
 
-Equation: 2x + 3 = 0
+Equation: -2x + 7 = 0
 
